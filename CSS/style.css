@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+div{
+    background-color: yellow;
+}
+
+  .cara {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .ojo {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+  }
+  
+  .ojo.izquierdo {
+    left: 30px;
+  }
+  
+  .ojo.derecho {
+    right: 30px;
+  }
+  
+  .boca {
+    width: 60px;
+    height: 30px;
+    border: 2px solid black;
+    border-top: none;
+    border-radius: 0 0 30px 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+  }
+  
